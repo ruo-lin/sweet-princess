@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img {
+    height: 600px;
+}
+
+.carousel-inner {
+    width: 1300px;
+    height: 700px;
+}
+
+span {
+    background-color: black;
+}
+
+h1 {
+    color: #F4BCA7;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #F4BCA7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4 {
+    color: rgb(60, 32, 15);
+    font-size: 20px;
+}
+
+/*draw*/
+.draw {
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drawcontainer {
+    width: 1000px;
+    height: 400px;
+    border: 5px dotted #F4BCA7;
+    border-radius: 20px;
+}
+
+#draw {
+    border-radius: 50px;
+}
+
+.drawbtn {
+    display: inline-block;
+    background-color: rgb(254, 225, 195);
+    border: 0px solid rgb(235, 130, 55);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: 30px 30px 10px 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.drawcontainer1 {
+    display: flex;
+}
+
+#clear:hover {
+    background-color: #f19169;
+}
+
+/*music*/
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.key {
+    padding: 10px 10px;
+    transition: all 0.07s ease;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.playing {
+    transform: scale(1.5);
+}
+
+kbd {
+    font-size: 15px;
+    color: rgb(118, 118, 118);
+    background-color: rgb(255, 255, 255);
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*qa*/
+.qa {
+    background-image: url(../img/Q3.svg);
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-container {
+    width: 100%;
+}
+.answer{
+    width: 100%;
+    height: 200px;
+}
+.answers {
+    text-align: left;
+    display: inline-block;
+}
+
+.answers label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.qab {
+    width: 100%;
+}
+
+.qabutton {
+    width: 150px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    background-color: #F4BCA7;
+    color: #fff;
+    border: 0px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.qabuttonn:hover {
+    background-color: #f5a486;
+}
+
+.qabuttonn:active {
+    background-color: #fb8f67;
+}
+
+
+.slideqa {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slideqa {
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container {
+    position: relative;
+    height: 170px;
+    margin-top: 40px;
+}
+
+/*back*/
+.storybtn {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(254, 225, 195);
+    border: 0px solid rgb(235, 130, 55);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    line-height: 2;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#back:hover {
+    background-color: #f19169;
+    color: rgb(255, 255, 255);
+}
+.cc{
+    margin-top: -40px;
+}
